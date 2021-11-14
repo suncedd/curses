@@ -1,0 +1,68 @@
+
+body{
+    background-color: #C89AFC;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background:  url('../img/bgc.png') no-repeat center top / cover;
+}
+    
+
+    .container{
+        max-width:  1920px;
+        margin: auto;
+    }
+    
+    .header{
+        min-height: 100vh;
+        
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+       padding-top: 48px;
+      
+       
+    }
+    .menu{
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+       margin-right: 270px;
+      
+    }
+   
+    .menu-item{
+        margin-right: 56px;
+        
+    }
+    .menu-link{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .cab {
+         
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .logo{  
+        margin-right: 370px;
+    margin-left: 80px;  
+    align-items: center;
+    display: flex;
+    }
+    .but{
+    margin-right: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    width: 183px;
+    height: 44px;
+    }
