@@ -14,7 +14,13 @@ body{
     
     .header{
         min-height: 100vh;
-        
+        position: absolute;
+        width: 1920px;
+        height: 960px;
+        left: 0px;
+        top: 0px;
+
+        background: url('../img/mc.png') no-repeat center top ;
     }
     .navbar{
         display: flex;
@@ -66,3 +72,150 @@ body{
     width: 183px;
     height: 44px;
     }
+    .zakaz-cursa{
+        position: absolute;
+    width: 920px;
+    height: 180px;
+    left: 312px;
+    top: 270px;
+    }
+    .curs-title{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 140%;
+    }
+
+   
+    
+      .curs-month {
+        position: static;
+        width: 42px;
+        height: 50px;
+        left: 30px;
+        top: 20px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+
+      }
+      .curs-day {
+        position: static;
+        width: 39px;
+        height: 22px;
+        left: 31.5px;
+        top: 70px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        opacity: 0.4;
+        
+        text-align: center;
+      }
+      
+      
+    
+      
+      .curs-day-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+      
+        position: absolute;
+        width: 102px;
+        height: 112px;
+        left: 312px;
+        top: 500px;
+        background: #121212;
+      }
+      .curs-huor-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+        position: absolute;
+        width: 107px;
+        height: 112px;
+        left: 444px;
+        top: 500px;
+        
+        background: #121212;
+      }
+      .curs-minut-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+
+        position: absolute;
+        width: 108px;
+        height: 112px;
+        left: 581px;
+        top: 500px;
+        
+        background: #121212;
+      }
+      .curs-sec-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+
+        position: absolute;
+        width: 115px;
+        height: 112px;
+        left: 719px;
+        top: 500px;
+        
+
+        background: #121212;
+      }
+      .curs-date{
+          display: block;
+          margin-right: 30px;
+
+      }
+      .zakaz{
+          display: block;
+        position: absolute;
+        width: 1920px;
+        height: 130px;
+        left: 0px;
+        top: 830px;
+        
+        background: #121212;
+      }
+      .knopka-zakaza{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        
+        position: absolute;
+        width: 169px;
+        height: 44px;
+        left: 312px;
+        top: 873px;
+        
+        
+        
+        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+        border-radius: 50px;
+      }
+      
+      
+     
