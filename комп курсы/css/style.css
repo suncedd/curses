@@ -1,4 +1,12 @@
 
+*{
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+  width: 90%;
+}
 body{
     background-color: #C89AFC;
     font-family: 'Roboto', sans-serif;
@@ -189,7 +197,7 @@ body{
 
       }
       .zakaz{
-          display: block;
+        display: flex;
         position: absolute;
         width: 1920px;
         height: 130px;
@@ -205,17 +213,275 @@ body{
         align-items: center;
         padding: 10px 30px;
         
-        position: absolute;
+        
         width: 169px;
         height: 44px;
-        left: 312px;
-        top: 873px;
+        margin-left: 312px;
+        margin-top: 43px;
+        margin-bottom: 43px;
         
-        
+        color: #fff;
         
         background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
         border-radius: 50px;
       }
-      
-      
-     
+      .uch{
+        display: flex;
+        width: 122px;
+        height: 24px;
+        margin-left: 81px;
+        margin-top: 36px;
+        margin-bottom: 70px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.4;
+      }
+      .uch2{
+        display: flex;
+        width: 193px;
+        height: 24px;
+        margin-left: -124px;
+        margin-top: 70px;
+        margin-bottom: 36px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.4;
+      }
+      .ch{
+        display: flex;
+        width: 28px;
+        height: 24px;
+        margin-left: 30px;
+        margin-top: 36px;
+        margin-bottom: 70px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+      }
+      .ch2{
+        display: flex;
+        width: 28px;
+        height: 24px;
+        margin-left: -30px;
+        margin-top: 70px;
+        margin-bottom: 36px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+      }
+      .zarab{
+        display: flex;
+        width: 178px;
+        height: 24px;
+        margin-left: 81px;
+        margin-top: 35px;
+        margin-bottom: 71px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.4;
+      }
+      .zarab2{
+        display: flex;
+        width: 71px;
+        height: 24px;
+        margin-left: 30px;
+        margin-top: 35px;
+        margin-bottom: 71px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+       
+      }
+      .rect{
+        display: flex;
+        margin-left: -278px;
+        margin-top: 67px;
+        margin-bottom: 57px;
+
+
+      }
+      .rect2{
+        display: flex;
+        margin-left: -717px;
+        margin-top: 67px;
+        margin-bottom: 57px;
+
+
+      }
+      .o{
+        display: flex;
+        width: 9px;
+        height: 24px;
+        margin-left: -440px;
+        margin-top: 78px;
+        margin-bottom: 28px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.4;
+      }
+      .mln{
+        display: flex;
+        width: 82px;
+        height: 24px;
+        margin-left: 640px;
+        margin-top: 78px;
+        margin-bottom: 28px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.4;
+      }
+      .ram{
+        position: absolute;
+        width: 526px;
+        height: 499px;
+        left: 312px;
+        top: 1160px;
+      }
+      .pc{
+        position: absolute;
+        width: 446px;
+        height: 446px;
+        left: 352px;
+        top: 1256px;
+      }
+      .tit{
+        position: absolute;
+        width: 502px;
+        height: 67px;
+        left: 972px;
+        top: 1229px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+      .txt{
+        position: absolute;
+        width: 636px;
+        height: 156px;
+        left: 977px;
+        top: 1341px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+      }
+      .circle{
+        position: absolute;
+        width: 90.3px;
+        height: 45.15px;
+        left: 356.15px;
+        top: 1902px;
+      }
+      .start{
+        position: absolute;
+        width: 351px;
+        height: 67px;
+        left: 470px;
+        top: 1933px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+      .opic{
+        position: absolute;
+        width: 411px;
+        height: 52px;
+        left: 350px;
+        top: 2049px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        opacity: 0.5;
+      }
+      .proc1{
+        position: absolute;
+        width: 89px;
+        height: 50px;
+        left: 312px;
+        top: 2181px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+      .proc2{
+        position: absolute;
+        width: 68px;
+        height: 50px;
+        left: 636px;
+        top: 2181px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+      .proc3{
+        position: absolute;
+        width: 68px;
+        height: 50px;
+        left: 960px;
+        top: 2181px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+        }
+      .proc4{
+                position: absolute;
+        width: 79px;
+        height: 50px;
+        left: 1284px;
+        top: 2181px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+       }
